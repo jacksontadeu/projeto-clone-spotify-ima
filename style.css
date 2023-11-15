@@ -18,6 +18,11 @@ body {
     letter-spacing: 1.5px;
     font-weight: bold;
 }
+.logo{
+    height: 40px;
+    width: auto;
+
+}
 #navbar {
     display: flex;
     background-color: #191414;
@@ -29,10 +34,11 @@ body {
     
 }
 #navbar .navbar-container{
-    width: 60%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* padding:20px; */
 }
 #navbar .navbar-container ul{
     display: flex;
@@ -50,10 +56,7 @@ body {
     cursor: pointer;
     color: gray;
 }
-#navbar .navbar-container img{
-    height: 40px;
-    width: auto;
-}
+
 #showcase {
     height: 100vh;
     display: flex;
@@ -80,5 +83,72 @@ body {
     cursor: pointer;
     background-color: gray;
 }
+#footer {
+    background: #191414;
+    color:white;
+    padding: 80px 0;
+   
+}
+#footer .footer-content{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+#footer .footer-content .footer-items{
+    list-style: none;
+    margin: 0 60px;
+}
+#footer .footer-content .footer-item:hover{
+    cursor: pointer;
+    color:green;
+}
+#footer .footer-content .footer-items p{
+    font-weight: bold;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 0.8rem;
 
+}
+#footer .footer-content .footer-items .footer-item{
+    margin: 15px 0;
+    font-size: 0.8rem;
+}
+#footer .footer-info {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:auto;
+    padding: 50px;
+}
+#footer .footer-info .footer-info-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 0.8rem;
+}
+#footer .footer-info .footer-info-items .footer-info-item{
+    margin: 0 20px;
+    list-style:none;
+    font-weight: bold;
+    color:gray;
+}
+#footer .footer-info .footer-info-items .footer-info-item:hover{
+    cursor: pointer;
+    color:green;
+}
+#footer .country .rigths p{
+    font-size: 0.7rem
+}
+#footer .country .rigths img{
+    width:40px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#footer .country .rigths{
+    display: flex;
+    justify-content: flex-end;
+}
 
