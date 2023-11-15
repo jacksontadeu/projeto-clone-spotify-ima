@@ -48,6 +48,7 @@ body {
 }
 #navbar .navbar-container ul li{
     padding: 0 20px;
+    transition: all 300ms ease;
 }
 #navbar .navbar-container ul li:nth-child(3){
     border-right: 1px solid white;
@@ -79,6 +80,9 @@ body {
     padding: 10px;
     font-size: 1.1rem;
 }
+#showcase .showcase-container button{
+    transition: all 300ms ease;
+}
 #showcase .showcase-container button:hover{
     cursor: pointer;
     background-color: gray;
@@ -99,6 +103,9 @@ body {
 #footer .footer-content .footer-items{
     list-style: none;
     margin: 0 60px;
+}
+#footer .footer-content .footer-item{
+    transition: all 300ms ease;
 }
 #footer .footer-content .footer-item:hover{
     cursor: pointer;
@@ -122,24 +129,45 @@ body {
     margin:auto;
     padding: 50px;
 }
+.redes-sociais{
+    display:flex;
+    align-items: ;
+}
+.redes-sociais i{
+    margin:0 20px;
+    font-size: 1.7rem;
+    transition: all 300ms ease;
+    
+}
+.redes-sociais i:hover{
+    cursor: pointer;
+    color: green;
+}
 #footer .footer-info .footer-info-items{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     font-size: 0.8rem;
 }
+
 #footer .footer-info .footer-info-items .footer-info-item{
     margin: 0 20px;
     list-style:none;
     font-weight: bold;
     color:gray;
+    transition: all 300ms ease;
 }
 #footer .footer-info .footer-info-items .footer-info-item:hover{
     cursor: pointer;
     color:green;
 }
 #footer .country .rigths p{
-    font-size: 0.7rem
+    font-size: 0.7rem;
+    transition: all 300ms ease;
+}
+#footer .country .rigths p:hover{
+    cursor: pointer;
+    color:green;
 }
 #footer .country .rigths img{
     width:40px;
