@@ -3,18 +3,82 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
 
 }
+.btn-primary {
+    background-color: #1DB954;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
 #navbar {
     display: flex;
+    background-color: #191414;
     justify-content: center;
-    background-color: rgb(128, 122, 122);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
     
 }
 #navbar .navbar-container{
     width: 60%;
-    color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+#navbar .navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    
+}
+#navbar .navbar-container ul li{
+    padding: 0 20px;
+}
+#navbar .navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+#navbar .navbar-container ul li:hover{
+    cursor: pointer;
+    color: gray;
+}
+#navbar .navbar-container img{
+    height: 40px;
+    width: auto;
+}
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('/images/showcase.webp') center center/cover;
+    background-color: rgba(0, 0, 0,0.2);
+    background-blend-mode: color;
+}
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#showcase .showcase-container h2 {
+    font-size: 5rem;
+}
+#showcase .showcase-container p {
+    padding: 10px;
+    font-size: 1.1rem;
+}
+#showcase .showcase-container button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+
